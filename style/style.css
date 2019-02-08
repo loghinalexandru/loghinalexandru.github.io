@@ -15,6 +15,15 @@ li {
 	margin-right: 5vw;
 }
 
+#stickyContactLabel{
+	top: 50%;
+	z-index: 3;
+	right: 0;
+}
+
+#stickyContactLabel h3{
+	background-color: black;
+}
 
 #navbarLinks .active {
 	text-decoration: underline;
