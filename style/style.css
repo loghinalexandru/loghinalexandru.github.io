@@ -41,6 +41,10 @@ hr {
 	h3 {
 		font-size: 2rem;
 	}
+
+	#githubCaption {
+		font-size: 1.5rem;
+	}
 }
 
 @media only screen and (max-width: 720px) {
@@ -51,6 +55,10 @@ hr {
 
 	h3 {
 		font-size: 1.5rem;
+	}
+
+	#githubCaption {
+		font-size: 1rem;
 	}
 }
 
@@ -67,4 +75,9 @@ hr {
 	.btn {
 		font-size: 0.7rem;
 	}
+
+	#githubCaption {
+		font-size: 0.6rem;
+	}
+	
 }
