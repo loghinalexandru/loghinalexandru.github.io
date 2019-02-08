@@ -8,11 +8,30 @@ body {
 
 li {
 	margin: 10px;
-	margin-right: 20px;
+	margin-right: 2.5vw;
 }
+
+
+
+#navbarLinks ul {
+	margin-right: 5vw;
+}
+
+
+#navbarLinks .active {
+	text-decoration: underline;
+	text-underline-position: under;
+}
+
+
 
 .jumbotron {
 	margin-bottom: 0px;
+}
+
+#slidesCaption h1,
+#slidesCaption h3 {
+	text-shadow: 1px 1px 10px black;
 }
 
 .row {
@@ -23,14 +42,11 @@ li {
 hr {
 	border: none;
 	height: 2px;
-	color: #2F4F4F;
-	background-color: #2F4F4F;
 }
 
 #mainContent {
 	background-color: #FFFFFF;
 }
-
 
 @media only screen and (max-width: 1200px) {
 
@@ -79,5 +95,5 @@ hr {
 	#githubCaption {
 		font-size: 0.6rem;
 	}
-	
+
 }
