@@ -21,6 +21,25 @@ li {
 	right: 0;
 }
 
+.dot {
+	transform: rotate(-25deg);
+	border-radius: 50%;
+	width: 70px;
+	height: 70px;
+	text-align: center;
+	vertical-align: center;
+}
+
+.separator {
+	background-color: black;
+	display: block;
+	margin-top: auto;
+	margin-bottom: auto;
+	width: 15rem;
+	height: 5px;
+	box-shadow: 1px 5px 10px black;
+}
+
 #stickyContactLabel h3{
 	background-color: black;
 }
@@ -66,9 +85,13 @@ hr {
 	#githubCaption {
 		font-size: 1.5rem;
 	}
+
+	.separator{
+		width: 10rem;
+	}
 }
 
-@media only screen and (max-width: 720px) {
+@media only screen and (max-width: 768px) {
 
 	.display-3 {
 		font-size: 2rem;
@@ -80,6 +103,10 @@ hr {
 
 	#githubCaption {
 		font-size: 1rem;
+	}
+
+	.separator{
+		width: 4.5rem;
 	}
 }
 
@@ -99,6 +126,19 @@ hr {
 
 	#githubCaption {
 		font-size: 0.6rem;
+	}
+
+	.separator{
+		width: 1rem;
+	}
+
+	.dot{
+		width: 50px;
+		height: 50px;
+	}
+
+	h5{
+		font-size: 1rem;
 	}
 
 }
