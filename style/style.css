@@ -1,3 +1,7 @@
+:root{
+	--background: #343a40;
+}
+
 html,
 body {
 	scroll-behavior: smooth;
@@ -22,22 +26,37 @@ li {
 }
 
 .dot {
-	transform: rotate(-25deg);
+	color: black;
 	border-radius: 50%;
 	width: 70px;
 	height: 70px;
 	text-align: center;
 	vertical-align: center;
+	transition: transform .2s ease-in, background-color .2s linear;
+}
+
+.dot:hover{
+	color: white;
+	transform: rotate(-25deg);
+	background-color: var(--background);
 }
 
 .separator {
-	background-color: black;
+	background-color: var(--background);
 	display: block;
 	margin-top: auto;
 	margin-bottom: auto;
 	width: 15rem;
-	height: 5px;
-	box-shadow: 1px 5px 10px black;
+	height: 2px;
+}
+
+.popover-body {
+	background-color: var(--background);
+	color: white;
+}
+
+.bs-popover-top .arrow::after  {
+	border-top-color: var(--background);
 }
 
 #stickyContactLabel h3{
