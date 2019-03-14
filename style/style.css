@@ -1,4 +1,4 @@
-:root{
+:root {
 	--background: #343a40;
 }
 
@@ -19,7 +19,7 @@ li {
 	margin-right: 5vw;
 }
 
-#stickyContactLabel{
+#stickyContactLabel {
 	top: 50%;
 	z-index: 3;
 	right: 0;
@@ -35,7 +35,7 @@ li {
 	transition: transform .2s ease-in, background-color .2s linear;
 }
 
-.dot:hover{
+.dot:hover {
 	color: white;
 	transform: rotate(-25deg);
 	background-color: var(--background);
@@ -55,11 +55,11 @@ li {
 	color: white;
 }
 
-.bs-popover-top .arrow::after  {
+.bs-popover-top .arrow::after {
 	border-top-color: var(--background);
 }
 
-#stickyContactLabel h3{
+#stickyContactLabel h3 {
 	background-color: black;
 }
 
@@ -105,9 +105,13 @@ hr {
 		font-size: 1.5rem;
 	}
 
-	.separator{
+	.separator {
 		width: 10rem;
 	}
+}
+
+.card img{
+	max-height: 250px;
 }
 
 @media only screen and (max-width: 768px) {
@@ -124,7 +128,7 @@ hr {
 		font-size: 1rem;
 	}
 
-	.separator{
+	.separator {
 		width: 4.5rem;
 	}
 }
@@ -147,16 +151,16 @@ hr {
 		font-size: 0.6rem;
 	}
 
-	.separator{
+	.separator {
 		width: 1rem;
 	}
 
-	.dot{
+	.dot {
 		width: 50px;
 		height: 50px;
 	}
 
-	h5{
+	h5 {
 		font-size: 1rem;
 	}
 

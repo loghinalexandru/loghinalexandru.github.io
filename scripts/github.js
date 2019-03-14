@@ -29,4 +29,3 @@ function renderData(){
 }
 
 window.addEventListener("scroll" , renderData);
-
