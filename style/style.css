@@ -91,6 +91,10 @@ hr {
 	height: 2px;
 }
 
+.fab:hover {
+	text-decoration: none;
+}
+
 #mainContent {
 	background-color: #FFFFFF;
 }
