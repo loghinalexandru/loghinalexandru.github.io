@@ -4,11 +4,11 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
-	 crossorigin="anonymous">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+		integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
 	<link rel="stylesheet" href="./style/style.css">
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
-	 crossorigin="anonymous">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css"
+		integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 	<link rel="stylesheet" href="./style/animate.css">
 	<link rel="shortcut icon" type="image/png" href="./misc/favicon.png">
 	<title>Welcome to LA!</title>
@@ -16,9 +16,9 @@
 
 <body>
 	<!-- Navbar -->
-	<nav class="navbar navbar-expand-md navbar-dark bg-dark p-0">
+	<nav class="navbar navbar-expand-md navbar-dark bg-dark px-5">
 		<a class="navbar-brand ml-5 pt-2 d-none d-md-block d-lg-block d-xl-block">
-			<img src="./misc/logo_transparent.png" height="120" width="120" class="img-fluid" alt="Logo">
+			<img src="./misc/logo_transparent.png" height="80" width="80" class="img-fluid" alt="Logo">
 		</a>
 		<button class="navbar-toggler ml-auto m-2" type="button" data-toggle="collapse" data-target="#navbarLinks">
 			<span class="navbar-toggler-icon">
@@ -27,13 +27,13 @@
 		<div class="navbar-collapse collapse" id="navbarLinks">
 			<ul class="navbar-nav ml-auto">
 				<li class="nav-item">
-					<a class="nav-link h5" href="./index.html">Home</a>
+					<a class="nav-link h4" href="./index.html">Home</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link h5" href="./projects.html">Projects</a>
+					<a class="nav-link h4" href="./projects.html">Projects</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link h5 active" href="./about.html">About</a>
+					<a class="nav-link h4 active" href="./about.html">About</a>
 				</li>
 			</ul>
 		</div>
@@ -46,33 +46,38 @@
 	</div>
 	<!-- Info -->
 	<div class="container-fluid padding w-75">
-		<h1 class="display-1 text-center m-3">
+		<h1 class="display-3 text-center m-3">
 			About
 		</h1>
 		<hr class="my-4" style="background-color: #808080;">
-		<div class="media animated fadeInLeft">
-			<img src="./misc/rwb.jpg" class="m-3 round-circle" height="200" width="300">
+		<div class="media container-fluid" id="card">
+			<img src="./misc/Portrait.jpg" class="m-3 round-circle img-fluid" height="250" width="250">
 			<div class="media-body m-auto">
-				<h2>
+				<h1 class="my-5">
 					Who am I?
-				</h2>
+				</h1>
 				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
-					been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
-					scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into
-					electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of
-					Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus
+					been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
+					of type and
+					scrambled it to make a type specimen book. It has survived not only five centuries, but also the
+					leap into
+					electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the
+					release of
+					Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software
+					like Aldus
 					PageMaker including versions of Lorem Ipsum.
 				</p>
 			</div>
 		</div>
-		<h1 class="display-1 text-center m-3 animated fadeIn slow">
+		<h1 class="display-3 text-center m-3 animated fadeIn">
 			Stats
 		</h1>
 		<div class="row">
-			<div class="shadow-lg card col-md m-3 p-4 padding animated fadeInUp">
+			<div class="shadow-lg card col-md m-3 p-4 padding animated fadeInUp slow">
 				<img class="card-img-top" src="./misc/skills.jpg">
 				<h5 class="card-title m-2 text-center">Skills</h5>
-				<p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+				<p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+					Ipsum has
 					been the industry's standard dummy text ever since the 1500s, when anpublisLorem Ipsum.</p>
 				<ul class="card-text mt-auto mb-auto">
 					<li>Algorithms</li>
@@ -80,10 +85,11 @@
 					<li>Web development</li>
 				</ul>
 			</div>
-			<div class="shadow-lg card col-md m-3 p-4 padding animated fadeInUp">
+			<div class="shadow-lg card col-md m-3 p-4 padding animated fadeInUp slow">
 				<img class="card-img-top" src="./misc/technologies.jpg">
 				<h5 class="card-title m-2 text-center">Technologies</h5>
-				<p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+				<p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+					Ipsum has
 					been the industry's standard dummy text ever since the 1500s, when anpublisLorem Ipsum.</p>
 				<ul class="card-text mt-auto mb-auto">
 					<li>Unity3d</li>
@@ -93,10 +99,11 @@
 					<li>Linux</li>
 				</ul>
 			</div>
-			<div class="shadow-lg card col-md m-3 p-4 padding animated fadeInUp">
+			<div class="shadow-lg card col-md m-3 p-4 padding animated fadeInUp slow">
 				<img class="card-img-top" src="./misc/code.jpg">
 				<h5 class="card-title m-2 text-center">Languages</h5>
-				<p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+				<p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+					Ipsum has
 					been the industry's standard dummy text ever since the 1500s, when anpublisLorem Ipsum.</p>
 				<ul class="card-text mt-auto mb-auto">
 					<li>C#</li>
@@ -131,12 +138,15 @@
 			</small>
 		</div>
 	</footer>
-	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-	 crossorigin="anonymous"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
-	 crossorigin="anonymous"></script>
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
-	 crossorigin="anonymous"></script>
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+		integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+	</script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+		integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous">
+	</script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+		integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous">
+	</script>
 </body>
 
 </html>

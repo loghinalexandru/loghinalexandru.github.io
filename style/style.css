@@ -7,7 +7,7 @@ body {
 	scroll-behavior: smooth;
 	width: 100%;
 	height: 100%;
-	font-family: -apple-system, BlinkMacSystemFont;
+	font-family: Georgia, Helvetica, Garamond, -apple-system, BlinkMacSystemFont;
 }
 
 li {
@@ -27,6 +27,23 @@ nav a:hover {
 	top: 50%;
 	z-index: 3;
 	right: 0;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+.carousel-item {
+	max-width: auto;
+	max-height: 600px;
+	overflow: hidden;
+}
+
+.carousel-item img {
+	max-width: auto;
+	max-height: 80%;
+	overflow: hidden;
 }
 
 .dot {
@@ -67,11 +84,6 @@ nav a:hover {
 	background-color: black;
 }
 
-#navbarLinks .active {
-	text-decoration: underline;
-	text-underline-position: under;
-}
-
 .jumbotron {
 	margin-bottom: 0px;
 }
@@ -97,6 +109,14 @@ hr {
 
 #mainContent {
 	background-color: #FFFFFF;
+}
+
+.card-img-top {
+	object-fit: cover;
+}
+
+p {
+	font-size: 1.5em;
 }
 
 @media only screen and (max-width: 1200px) {
@@ -139,6 +159,18 @@ hr {
 	.separator {
 		width: 4.5rem;
 	}
+
+	#card {
+		display: flex;
+		flex-direction: column;
+	}
+
+	#card img {
+		display: block;
+		margin: auto !important;
+		width: 150px;
+		height: 200px;
+	}
 }
 
 @media only screen and (max-width: 500px) {
@@ -171,5 +203,4 @@ hr {
 	h5 {
 		font-size: 1rem;
 	}
-
 }
