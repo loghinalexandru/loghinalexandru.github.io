@@ -1,5 +1,3 @@
-let caption = document.getElementById("githubCaption");
-
 function getGithubData(uri){
 	fetch(uri)
 		.then(response => {
@@ -11,9 +9,8 @@ function getGithubData(uri){
 		})
 }
 
-window.odometerOptions = {
-	auto: false,
-	duration: 3000,
-};
+function setOdometerValue(){
+	setTimeout(getGithubData('https://api.github.com/users/loghinalexandru'), 1000);
+}
 
-getGithubData('https://api.github.com/users/loghinalexandru');
+window.onload = setOdometerValue();
