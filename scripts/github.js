@@ -9,6 +9,11 @@ function getGithubData(uri){
 		})
 }
 
+window.odometerOptions = {
+	auto: false,
+	duration: 10000,
+};
+
 function setOdometerValue(){
 	setTimeout(getGithubData('https://api.github.com/users/loghinalexandru'), 1000);
 }

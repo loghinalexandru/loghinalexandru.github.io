@@ -10,85 +10,78 @@
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css"
 		integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 	<link rel="shortcut icon" type="image/png" href="./misc/favicon.png">
-	<script src="https://raw.githubusercontent.com/HubSpot/odometer/v0.4.6/odometer.min.js"></script>
-	<link rel="stylesheet"
-		href="https://raw.githubusercontent.com/HubSpot/odometer/master/themes/odometer-theme-minimal.css" />
+	<link rel="stylesheet" href="http://github.hubspot.com/odometer/themes/odometer-theme-minimal.css" />
+	<script src="http://github.hubspot.com/odometer/odometer.js"></script>
 	<title>Loghin.Alexandru</title>
 </head>
 
 <body>
-	<!-- Navbar -->
-	<nav class="navbar navbar-expand-md">
-		<p class="navbar-brand ml-5 pt-2 d-none d-md-block d-lg-block d-xl-block">loghinalexnadru</p>
-		<button class="navbar-toggler ml-auto m-2" type="button" data-toggle="collapse" data-target="#navbarLinks">
-			<span class="navbar-toggler-icon">
-			</span>
-		</button>
-		<div class="navbar-collapse collapse" id="navbarLinks">
-			<ul class="navbar-nav mr-auto">
-				<li class="nav-item">
-					<a class="nav-link h6 active" href="./index.html">Home</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link h6" href="./projects.html">Projects</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link h6" href="./about.html">About</a>
-				</li>
-			</ul>
-		</div>
-	</nav>
-	<!-- Slides -->
-
-	<!-- Github -->
-	<div class="d-flex p-0 col-md-12">
-		<div id="slidesCaption">
-			<h3>
-				Loghin Alexandru
-			</h3>
-			<h3>
-				Big Nerd
-			</h3>
-			<h3>
-				Tech Enthusiast
-			</h3>
-		</div>
-		<a href="https://github.com/loghinalexandru">
-			<img src="./misc/github.jpg" class="img-fluid  w-75" alt="GitHub">
-			<div class="carousel-caption text-dark d-flex flex-column h-100 justify-content-center align-items-end">
-				<h3 id="githubCaption">Straight to <b>Github</b> baby!</h3>
-				<h3>Project Count : <b class="odometer">0</b></h3>
+	<div>
+		<div id="main">
+			<!-- Navbar -->
+			<nav class="row navbar navbar-expand-md bg-dark text-black mx-auto mb-auto w-50">
+				<p class="navbar-brand ml-5 pt-2 d-none d-md-block d-lg-block d-xl-block">loghinalexandru</p>
+				<button class="navbar-toggler ml-auto m-2" type="button" data-toggle="collapse"
+					data-target="#navbarLinks">
+					<span class="navbar-toggler-icon">
+					</span>
+				</button>
+				<div class="navbar-collapse collapse" id="navbarLinks">
+					<ul class="navbar-nav mx-auto">
+						<li class="nav-item">
+							<a class="nav-link h6 active" href="./index.html">Home</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link h6" href="./projects.html">Projects</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link h6" href="./about.html">About</a>
+						</li>
+					</ul>
+				</div>
+			</nav>
+			<!-- Slides -->
+			<div id="slides" class="row mx-auto col-md-12">
+				<img src="misc/github.jpg" class="img-responsive">
 			</div>
-		</a>
-	</div>
-	<!-- Sticky Contact Panel -->
-	<div id="stickyContactLabel" class="position-fixed">
-		<a class="text-light bg-dark" href="#contact">
-			<h3 data-toggle="tooltip" title="Contact" class="p-2 pr-3 rounded fas fa-address-card"></h3>
-		</a>
-	</div>
-	<!-- Jumbotron -->
-	<div class="jumbotron" id="description">
-		<h1 class="text-center">Short Description</h1>
-		<hr class="my-4">
-		<h4>My name is Loghin alexandru and I am soon to be a graduate of <a
-				href="http://www.info.uaic.ro/bin/Main/">FII</a>.</h4>
-		<br>
-		<h4>This is my personal website containing all my projects I have worked on and my personal history in software
-			development.</h4>
-		<br>
-	</div>
+			<div id="captions" class="row">
+				<div class="text-dark d-flex flex-column ml-auto mr-5 h-100 justify-content-center align-items-end">
+					<h3 id="githubCaption">Straight to <b>Github</b> baby!</h3>
+					<h3>Project Count : <b class="odometer">0</b></h3>
+				</div>
+			</div>
+		</div>
 
-	<!-- Content -->
-	<div class="container-fluid jumbotron" id="mainContent">
-		<h1 class="text-center">Technical Background</h1>
-		<hr class="my-4">
-	</div>
+		<!-- Sticky Contact Panel -->
+		<div id="stickyContactLabel" class="position-fixed">
+			<a class="text-light bg-dark" href="#contact">
+				<h3 data-toggle="tooltip" title="Contact" class="p-2 pr-3 rounded fas fa-address-card"></h3>
+			</a>
+		</div>
+		<!-- Jumbotron -->
+		<div class="jumbotron" id="description">
+			<h1 class="text-center">Short Description</h1>
+			<hr class="my-4">
+			<h4>My name is Loghin alexandru and I am soon to be a graduate of <a
+					href="http://www.info.uaic.ro/bin/Main/">FII</a>.</h4>
+			<br>
+			<h4>This is my personal website containing all my projects I have worked on and my personal history in
+				software
+				development.</h4>
+			<br>
+		</div>
 
-	</div> <!-- Cards container-->
-	<div class="container-fluid bg-light py-5">
+		<!-- Content -->
+		<div class="container-fluid jumbotron">
+			<h1 class="text-center">Technical Background</h1>
+			<hr class="my-4">
+		</div>
+
+	</div>
+	<!-- Cards container-->
+	<div class="container-fluid bg-light">
 		<div class="row m-0 p-0">
-			<div class="shadow-lg card col-md m-5 p-4 padding animated slideInLeft">
+			<div class="shadow-lg card col-md m-5 p-4 padding">
 				<img class="card-img-top" src="./misc/HMM.png">
 				<h3 class="card-title m-2 text-center">Procedural Generation</h5>
 					<p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
@@ -96,7 +89,7 @@
 						been the industry's standard dummy text ever since the 1500s, when anpublisLorem Ipsum.</p>
 					<a class="w-50 ml-auto mr-auto mt-auto btn btn-primary" type="button" href="#">Learn More</a>
 			</div>
-			<div class="shadow-lg card col-md m-5 p-4 padding animated slideInDown">
+			<div class="shadow-lg card col-md m-5 p-4 padding">
 				<img class="card-img-top" src="./misc/Flappy-Bird.jpg">
 				<h3 class="card-title m-2 text-center">Qlearning</h5>
 					<p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
@@ -104,7 +97,7 @@
 						been the industry's standard dummy text and more recently with desktop publish.</p>
 					<a class="w-50 ml-auto mr-auto mt-auto btn btn-primary" type="button" href="#">Learn More</a>
 			</div>
-			<div class="shadow-lg card col-md m-5 p-4 padding animated slideInRight">
+			<div class="shadow-lg card col-md m-5 p-4 padding">
 				<img class="card-img-top" src="./misc/Mario.png">
 				<h3 class="card-title m-2 text-center">Mario</h5>
 					<p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
@@ -114,7 +107,7 @@
 			</div>
 		</div>
 		<div class="row m-0 p-0">
-			<div class="shadow-lg card col-md m-5 p-4 padding animated slideInLeft">
+			<div class="shadow-lg card col-md m-5 p-4 padding">
 				<img class="card-img-top" src="./misc/Chain.png">
 				<h3 class="card-title m-2 text-center">Markov Chain</h5>
 					<p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
@@ -122,7 +115,7 @@
 						been the industry's standard dummy text ever since the 1500s, when anpublisLorem Ipsum.</p>
 					<a class="w-50 ml-auto mr-auto mt-auto btn btn-primary" type="button" href="#">Learn More</a>
 			</div>
-			<div class="shadow-lg card col-md m-5 p-4 padding animated slideInUp">
+			<div class="shadow-lg card col-md m-5 p-4 padding">
 				<img class="card-img-top" src="./misc/Wagi.png">
 				<h3 class="card-title m-2 text-center">WAGI</h5>
 					<p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
@@ -130,7 +123,7 @@
 						been the industry's standard dummy text and more recently with desktop publish.</p>
 					<a class="w-50 ml-auto mr-auto mt-auto btn btn-primary" type="button" href="#">Learn More</a>
 			</div>
-			<div class="shadow-lg card col-md m-5 p-4 padding animated slideInRight ">
+			<div class="shadow-lg card col-md m-5 p-4 padding">
 				<img class="card-img-top" src="./misc/NeuralNet.png">
 				<h3 class="card-title m-2 text-center">Color Predictor</h5>
 					<p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
