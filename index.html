@@ -7,71 +7,60 @@
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
 		integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
 	<link rel="stylesheet" href="./style/style.css">
-	<link rel="stylesheet" href="./style/odometer-theme-minimal.css">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css"
 		integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 	<link rel="shortcut icon" type="image/png" href="./misc/favicon.png">
-	<title>Welcome to LA!</title>
+	<link rel="stylesheet" href="odometer-theme-default.css" />
+	<title>Loghin.Alexandru</title>
 </head>
 
 <body>
 	<!-- Navbar -->
-	<nav class="navbar navbar-expand-md navbar-dark bg-dark px-5 py-0">
+	<nav class="navbar navbar-expand-md navbar-dark bg-dark">
 		<a class="navbar-brand ml-5 pt-2 d-none d-md-block d-lg-block d-xl-block">
-			<img src="./misc/logo_transparent.png" height="80" width="80" class="img-fluid" alt="Logo">
+			<p>loghinalexnadru</p>
 		</a>
 		<button class="navbar-toggler ml-auto m-2" type="button" data-toggle="collapse" data-target="#navbarLinks">
 			<span class="navbar-toggler-icon">
 			</span>
 		</button>
 		<div class="navbar-collapse collapse" id="navbarLinks">
-			<ul class="navbar-nav ml-auto">
+			<ul class="navbar-nav mr-auto">
 				<li class="nav-item">
-					<a class="nav-link h4 active" href="./index.html">Home</a>
+					<a class="nav-link h6 active" href="./index.html">Home</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link h4" href="./projects.html">Projects</a>
+					<a class="nav-link h6" href="./projects.html">Projects</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link h4" href="./about.html">About</a>
+					<a class="nav-link h6" href="./about.html">About</a>
 				</li>
 			</ul>
 		</div>
 	</nav>
 	<!-- Slides -->
-	<div class="carousel slide" data-ride="carousel" id="slides">
-		<ol class="carousel-indicators">
-			<li data-target="#slides" data-slide-to="0" class="active"></li>
-			<li data-target="#slides" data-slide-to="1"></li>
-			<li data-target="#slides" data-slide-to="2"></li>
-		</ol>
-		<div id="slidesCaption"
-			class="carousel-caption h-100 d-flex flex-column justify-content-center align-items-start">
-			<h1 class="display-3">
-				Loghin Alexandru
-			</h1>
-			<h3>
-				Big Nerd
-			</h3>
-			<h3>
-				Tech Enthusiast
-			</h3>
-			<h3>
-				Computer Science Graduate
-			</h3>
-			<a href="#mainContent" class="text-light btn btn-primary" role="button">See more info</a>
-		</div>
-		<div class="carousel-inner">
-			<div class="carousel-item active">
-				<img src="./misc/rwb2.jpg" class="d-block w-100" alt="Image">
+	<div id="slidesCaption" class="carousel-caption h-100 d-flex flex-column justify-content-center align-items-start">
+		<h3>
+			Loghin Alexandru
+		</h3>
+		<h3>
+			Big Nerd
+		</h3>
+		<h3>
+			Tech Enthusiast
+		</h3>
+	</div>
+	<!-- Github -->
+	<div class="container-fluid p-0 col-md-12" style="background-color: #7CBAE6;">
+		<a href="https://github.com/loghinalexandru">
+			<img src="./misc/github.jpg" class="img-fluid  w-75" alt="GitHub">
+			<div class="carousel-caption text-dark d-flex flex-column h-100 justify-content-center align-items-end">
+				<h3 id="githubCaption">Straight to <b>Github</b> baby!</h3>
+				<h3>Project Count : <b class="odometer">0</b></h3>
 			</div>
-			<div class="carousel-item ">
-				<img src="./misc/rwb3.jpg" class="d-block w-100" alt="Image">
-			</div>
-			<div class="carousel-item ">
-				<img src="./misc/rwb4.jpg" class="d-block w-100" alt="Image">
-			</div>
-		</div>
+		</a>
+	</div>
+	</div>
 	</div>
 	<!-- Sticky Contact Panel -->
 	<div id="stickyContactLabel" class="position-fixed">
@@ -93,16 +82,7 @@
 			<a class="btn btn-primary text-center" href="./projects.html">Skip to the projects</a>
 		</div>
 	</div>
-	<!-- Github -->
-	<div class="container-fluid p-0 col-md-12" style="background-color: #7CBAE6;">
-		<a href="https://github.com/loghinalexandru">
-			<img src="./misc/github.jpg" class="img-fluid  w-75" alt="GitHub">
-			<div class="carousel-caption text-dark d-flex flex-column h-100 justify-content-center align-items-end">
-				<h3 id="githubCaption">Straight to <b>Github</b> baby!</h3>
-				<h3>Project Count : <b class="odometer">0</b></h3>
-			</div>
-		</a>
-	</div>
+
 	<!-- Content -->
 	<div class="container-fluid jumbotron" id="mainContent">
 		<h1 class="text-center display-3">Technical Background</h1>
@@ -164,29 +144,59 @@
 			eros.
 		</p>
 	</div>
-	<!-- Timeline -->
-	<div class="container-fluid mb-5">
-		<h1 class="text-center">Timeline</h1>
-		<div class="container-fluid m-auto row w-80">
-			<div class="column dot d-flex justify-content-center align-items-center btn" data-trigger="hover"
-				data-toggle="popover" data-placement="top" data-content="Born in a small town">
-				<h5 class="m-1">1997</h5>
+
+	</div> <!-- Cards container-->
+	<div class="container-fluid bg-light py-5">
+		<div class="row m-0 p-0">
+			<div class="shadow-lg card col-md m-5 p-4 padding animated slideInLeft">
+				<img class="card-img-top" src="./misc/HMM.png">
+				<h3 class="card-title m-2 text-center">Procedural Generation</h5>
+					<p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+						Lorem Ipsum has
+						been the industry's standard dummy text ever since the 1500s, when anpublisLorem Ipsum.</p>
+					<a class="w-50 ml-auto mr-auto mt-auto btn btn-primary" type="button" href="#">Learn More</a>
 			</div>
-			<div class="column separator"></div>
-			<div class="column dot d-flex justify-content-center align-items-center btn" data-trigger="hover"
-				data-toggle="popover" data-placement="top" data-content="Finished local High School">
-				<h5 class="m-1">2015</h5>
+			<div class="shadow-lg card col-md m-5 p-4 padding animated slideInDown">
+				<img class="card-img-top" src="./misc/Flappy-Bird.jpg">
+				<h3 class="card-title m-2 text-center">Qlearning</h5>
+					<p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+						Lorem Ipsum has
+						been the industry's standard dummy text and more recently with desktop publish.</p>
+					<a class="w-50 ml-auto mr-auto mt-auto btn btn-primary" type="button" href="#">Learn More</a>
 			</div>
-			<div class="column separator"></div>
-			<div class="column dot d-flex justify-content-center align-items-center btn" data-trigger="hover"
-				data-toggle="popover" data-placement="top"
-				data-content="Started Studies At University Alexandru Ioan Cuza (Undergraduate)">
-				<h5 class="m-1">2016</h5>
+			<div class="shadow-lg card col-md m-5 p-4 padding animated slideInRight">
+				<img class="card-img-top" src="./misc/Mario.png">
+				<h3 class="card-title m-2 text-center">Mario</h5>
+					<p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+						Lorem Ipsum has
+						been the industry's standard dummy text</p>
+					<a class="w-50 ml-auto mr-auto mt-auto btn btn-primary" type="button" href="#">Learn More</a>
 			</div>
-			<div class="column separator"></div>
-			<div class="column dot d-flex justify-content-center align-items-center btn" data-trigger="hover"
-				data-toggle="popover" data-placement="top" data-content="Finished Barchelor Degree in CS">
-				<h5 class="m-1">2019</h5>
+		</div>
+		<div class="row m-0 p-0">
+			<div class="shadow-lg card col-md m-5 p-4 padding animated slideInLeft">
+				<img class="card-img-top" src="./misc/Chain.png">
+				<h3 class="card-title m-2 text-center">Markov Chain</h5>
+					<p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+						Lorem Ipsum has
+						been the industry's standard dummy text ever since the 1500s, when anpublisLorem Ipsum.</p>
+					<a class="w-50 ml-auto mr-auto mt-auto btn btn-primary" type="button" href="#">Learn More</a>
+			</div>
+			<div class="shadow-lg card col-md m-5 p-4 padding animated slideInUp">
+				<img class="card-img-top" src="./misc/Wagi.png">
+				<h3 class="card-title m-2 text-center">WAGI</h5>
+					<p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+						Lorem Ipsum has
+						been the industry's standard dummy text and more recently with desktop publish.</p>
+					<a class="w-50 ml-auto mr-auto mt-auto btn btn-primary" type="button" href="#">Learn More</a>
+			</div>
+			<div class="shadow-lg card col-md m-5 p-4 padding animated slideInRight ">
+				<img class="card-img-top" src="./misc/NeuralNet.png">
+				<h3 class="card-title m-2 text-center">Color Predictor</h5>
+					<p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+						Lorem Ipsum has
+						been the industry's standard dummy text</p>
+					<a class="w-50 ml-auto mr-auto mt-auto btn btn-primary" type="button" href="#">Learn More</a>
 			</div>
 		</div>
 	</div>
@@ -196,7 +206,6 @@
 			<h3 id="contact" class="text-center text-light">Contact</h3>
 			<hr class="my-4" style="background-color: #ffffff;">
 			<div class="row w-50 mr-auto ml-auto text-light">
-				<a href="https://www.facebook.com/alexandru.loghin.96" class="fab fa-facebook h1 col"></a>
 				<a href="https://www.linkedin.com/in/alexandru-loghin-a217b517a/" class="fab fa-linkedin h1 col"></a>
 				<a href="https://twitter.com/LoghinAlexandr4" class="fab fa-twitter h1 col"></a>
 				<a href="https://github.com/loghinalexandru" class="fab fa-github h1 col"></a>
@@ -204,13 +213,38 @@
 			<div class="row text-light">
 				<p>You can also write me an email at <b>loghinalexandru61@gmail.com</b></p>
 			</div>
-			<small class="text-light">
-				All rights reserved <i class="far fa-copyright"></i> Loghin Alexandru
-			</small>
-			<small class="row text-light">
-				<a href="#">Go to top</a>
-			</small>
-		</div>
+			<!-- Timeline -->
+			<div class="container-fluid mb-5">
+				<h1 class="text-center">Timeline</h1>
+				<div class="container-fluid m-auto row w-80">
+					<div class="column dot d-flex justify-content-center align-items-center btn" data-trigger="hover"
+						data-toggle="popover" data-placement="top" data-content="Born in a small town">
+						<h5 class="m-1">1997</h5>
+					</div>
+					<div class="column separator"></div>
+					<div class="column dot d-flex justify-content-center align-items-center btn" data-trigger="hover"
+						data-toggle="popover" data-placement="top" data-content="Finished local High School">
+						<h5 class="m-1">2015</h5>
+					</div>
+					<div class="column separator"></div>
+					<div class="column dot d-flex justify-content-center align-items-center btn" data-trigger="hover"
+						data-toggle="popover" data-placement="top"
+						data-content="Started Studies At University Alexandru Ioan Cuza (Undergraduate)">
+						<h5 class="m-1">2016</h5>
+					</div>
+					<div class="column separator"></div>
+					<div class="column dot d-flex justify-content-center align-items-center btn" data-trigger="hover"
+						data-toggle="popover" data-placement="top" data-content="Finished Barchelor Degree in CS">
+						<h5 class="m-1">2019</h5>
+					</div>
+				</div>
+				<small class="text-light">
+					All rights reserved <i class="far fa-copyright"></i> Loghin Alexandru
+				</small>
+				<small class="row text-light">
+					<a href="#">Go to top</a>
+				</small>
+			</div>
 	</footer>
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
 		integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
@@ -222,7 +256,7 @@
 		integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous">
 	</script>
 	<script src="./scripts/github.js"></script>
-	<script src="./scripts/odometer.js"></script>
+	<script src="https://raw.githubusercontent.com/HubSpot/odometer/v0.4.6/odometer.min.js"></script>
 	<script>
 		$(function () {
 			$('[data-toggle="popover"]').popover()

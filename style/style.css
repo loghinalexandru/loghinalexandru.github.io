@@ -120,11 +120,6 @@ p {
 }
 
 @media only screen and (max-width: 1200px) {
-
-	.display-3 {
-		font-size: 3rem;
-	}
-
 	h3 {
 		font-size: 2rem;
 	}
@@ -138,16 +133,7 @@ p {
 	}
 }
 
-.card img {
-	max-height: 250px;
-}
-
 @media only screen and (max-width: 768px) {
-
-	.display-3 {
-		font-size: 2rem;
-	}
-
 	h3 {
 		font-size: 1.5rem;
 	}
@@ -174,10 +160,6 @@ p {
 }
 
 @media only screen and (max-width: 500px) {
-
-	.display-3 {
-		font-size: 1.3rem;
-	}
 
 	h3 {
 		font-size: 1rem;
