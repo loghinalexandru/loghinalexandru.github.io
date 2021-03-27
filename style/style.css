@@ -28,8 +28,13 @@ nav a:hover {
 	margin: 0px;
 }
 
+small a{
+	color: black !important;
+}
+
 footer {
 	color: black !important;
+	margin: 0px;
 }
 
 #stickyContactLabel {
@@ -73,6 +78,10 @@ img {
 	z-index: 2;
 }
 
+#timeline{
+	margin: 0px !important;
+}
+
 .dot {
 	color: black;
 	border-radius: 50%;
@@ -112,7 +121,8 @@ img {
 }
 
 .jumbotron {
-	margin-bottom: 0px;
+	background-color: white;
+	padding: 0px;
 }
 
 .row {
