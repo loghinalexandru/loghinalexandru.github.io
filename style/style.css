@@ -44,7 +44,8 @@ footer {
 }
 
 #project-item{
-	margin-bottom: 15%;
+	margin-bottom: 10%;
+	max-width: 50%;
 }
 
 img {
