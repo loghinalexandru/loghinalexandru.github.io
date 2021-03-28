@@ -28,7 +28,7 @@ nav a:hover {
 	margin: 0px;
 }
 
-small a{
+small a {
 	color: black !important;
 }
 
@@ -44,19 +44,35 @@ footer {
 }
 
 #project-item{
-	margin-bottom: 10%;
-	max-width: 50%;
+	padding: 0px;
+	max-width: 100%;
 }
 
-img {
-	max-width: 100%;
-	height: auto;
+#project-item img {
+	object-fit: cover !important;
+    -ms-transform: scale(1.4);
+    -webkit-transform: scale(1.4);
+    transform: scale(1.4);
+}
+
+
+#projects .row {
+	padding: 0px !important;
+}
+
+#projects{
+	padding: 0px;
 }
 
 .navbar {
 	background: transparent !important;
 	grid-area: header;
 	z-index: 100;
+}
+
+img{
+	max-height: 100%;
+	max-width: 100%;
 }
 
 .navbar-brand {
@@ -83,7 +99,7 @@ img {
 	z-index: 2;
 }
 
-#timeline{
+#timeline {
 	margin: 0px !important;
 }
 
@@ -150,6 +166,16 @@ hr {
 
 p {
 	font-size: 1.5em;
+}
+
+.offset-left {
+	position: relative;
+	left: 25px;
+}
+
+.offset-right {
+	position: relative;
+	right: 25px;
 }
 
 @media only screen and (max-width: 1200px) {

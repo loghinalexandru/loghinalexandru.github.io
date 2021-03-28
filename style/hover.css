@@ -32,7 +32,7 @@
 
 .hovereffect h2 {
     color: #fff;
-    top: 50%;
+    top: 30%;
     text-align: center;
     position: relative;
     -webkit-transform: translatey(-100px);
@@ -46,7 +46,7 @@
 .hovereffect a.info {
     text-decoration: none;
     display: inline-block;
-    top: 50%;
+    top: 30%;
     max-width: 80%;
     position: relative;
     text-transform: uppercase;
@@ -60,10 +60,15 @@
     padding: 7px 14px;
 }
 
+.hovereffect a.info:hover {
+    text-decoration: none;
+    color:white;
+}
+
 .hovereffect:hover img {
-    -ms-transform: scale(1.2);
-    -webkit-transform: scale(1.2);
-    transform: scale(1.2);
+    -ms-transform: scale(1.5) !important;
+    -webkit-transform: scale(1.5) !important;
+    transform: scale(1.5) !important;
 }
 
 .hovereffect:hover .overlay {
