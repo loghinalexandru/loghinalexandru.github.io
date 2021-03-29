@@ -23,17 +23,17 @@ a:hover {
 }
 
 nav a:hover {
-	color: black !important;
-	border-bottom: 2px solid black;
+	color: white !important;
+	border-bottom: 2px solid white;
 	margin: 0px;
 }
 
 small a {
-	color: black !important;
+	color: inherit !important;
 }
 
 footer {
-	color: black !important;
+	color: inherit !important;
 	margin: 0px;
 }
 
@@ -43,16 +43,16 @@ footer {
 	right: 0;
 }
 
-#project-item{
+#project-item {
 	padding: 0px;
 	max-width: 100%;
 }
 
 #project-item img {
 	object-fit: cover !important;
-    -ms-transform: scale(1.4);
-    -webkit-transform: scale(1.4);
-    transform: scale(1.4);
+	-ms-transform: scale(1.4);
+	-webkit-transform: scale(1.4);
+	transform: scale(1.4);
 }
 
 
@@ -60,7 +60,7 @@ footer {
 	padding: 0px !important;
 }
 
-#projects{
+#projects {
 	padding: 0px;
 }
 
@@ -70,13 +70,74 @@ footer {
 	z-index: 100;
 }
 
-img{
+footer {
+	background: transparent !important;
+	display: grid;
+	max-width: auto;
+	max-height: auto;
+	grid-template-rows: 1;
+	grid-template-columns: 1;
+	grid-template-areas: "line";
+}
+
+footer a:hover{
+	color: #7CBAE6 !important
+}
+
+.separator-container {
+	overflow: hidden;
+	position: relative !important;
+	width: 100%;
+	grid-area: line !important;
+}
+
+#desc {
+	background: transparent !important;
+	vertical-align: center;
+	display: grid;
+	max-width: auto;
+	max-height: auto;
+	grid-template-rows: 1;
+	grid-template-columns: 1;
+	grid-template-areas: "line";
+}
+
+#desc svg {
+	grid-area: line;
+}
+
+.btn-primary {
+	background-color: #7CBAE6 !important;
+	border-color:#7CBAE6 !important;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+#desc h4 {
+	grid-area: line;
+}
+
+.wave {
+	transform: scale(1.1);
+}
+
+#contact {
+	grid-area: line;
+	z-index: 3;
+}
+
+img {
 	max-height: 100%;
 	max-width: 100%;
 }
 
 .navbar-brand {
 	font-family: Comfortaa !important;
+}
+
+#about img {
+	border-radius: 10px;
 }
 
 #main {
@@ -99,12 +160,15 @@ img{
 	z-index: 2;
 }
 
+#captions a:hover{
+	color: white !important;
+}
+
 #timeline {
 	margin: 0px !important;
 }
 
 .dot {
-	color: black;
 	border-radius: 50%;
 	width: 70px;
 	height: 70px;
@@ -126,6 +190,10 @@ img{
 	margin-bottom: auto;
 	width: 15rem;
 	height: 2px;
+}
+
+#about h4{
+	color:white;
 }
 
 .popover-body {
@@ -176,6 +244,10 @@ p {
 .offset-right {
 	position: relative;
 	right: 25px;
+}
+
+.separator-container svg {
+	animation: move 10s linear infinite;
 }
 
 @media only screen and (max-width: 1200px) {
@@ -243,5 +315,23 @@ p {
 
 	h5 {
 		font-size: 1rem;
+	}
+}
+
+@keyframes move {
+	25% {
+		transform: translateX(-1px) translateY(-0.5vw) scale(1.1);
+	}
+
+	50% {
+		transform: translateX(2px) translateY(-0.2vw) scale(1.1);
+	}
+
+	75% {
+		transform: translateX(-2px) translateY(-0.3vw) scale(1.1);
+	}
+
+	100% {
+		transform: translateX(0px) translateY(0vw) scale(1.1);
 	}
 }
