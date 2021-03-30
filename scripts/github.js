@@ -16,12 +16,7 @@ async function loadData(){
 }
 
 async function getApiData(uri) {
-	let data = await fetch(uri, {
-		headers: {
-			'Authorization': 'token 1e953ed472110faf9d150d958a2106009881840e'
-		}
-	});
-
+	let data = await fetch(uri);
 	return data.json();
 }
 
