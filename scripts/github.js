@@ -1,12 +1,58 @@
-function getGithubData(uri){
-	fetch(uri)
-		.then(response => {
-			return response.json();
-		})
-		.then(data =>{
-			let counter = document.getElementsByClassName("odometer")[0];
-			counter.innerHTML = data.public_repos
-		})
+function setOdometerValue(id, value){
+	let counter = document.getElementById(id);
+	counter.innerHTML = value;
+}
+
+async function loadData(){
+	let projectsCount = await getKey('projects', getGithubProjectCount)
+	let commitsCount = await getKey('commit', getGithubCommitCount)
+
+	console.log(projectsCount)
+	console.log(commitsCount)
+
+
+	setTimeout(() => setOdometerValue("projects", projectsCount), 200);
+	setTimeout(() => setOdometerValue("commits",commitsCount), 200);
+}
+
+async function getApiData(uri) {
+	let data = await fetch(uri, {
+		headers: {
+			'Authorization': 'token 1e953ed472110faf9d150d958a2106009881840e'
+		}
+	});
+
+	return data.json();
+}
+
+async function getKey(key, asyncDelegate){
+	let value = sessionStorage.getItem(key)
+
+	if(value === null){
+		value = await asyncDelegate();
+		sessionStorage.setItem(key, value)
+	}
+
+	return value
+}
+
+async function getGithubProjectCount() {
+	const uri = 'https://api.github.com/users/loghinalexandru'
+	data = await getApiData(uri)
+
+	return data.public_repos;
+}
+
+async function getGithubCommitCount() {
+	const projectList = ["Procedural-Generation", "GenerativeAdversarialNetworks", "Life-Itself"]
+	let commitCount = 0;
+
+	for (project of projectList) {
+		let data = await getApiData('https://api.github.com/repos/loghinalexandru/' + project + '/stats/contributors');
+		commitCount += data[0].total;
+	}
+
+	return commitCount;
 }
 
 window.odometerOptions = {
@@ -14,8 +60,4 @@ window.odometerOptions = {
 	duration: 10000,
 };
 
-function setOdometerValue(){
-	setTimeout(getGithubData('https://api.github.com/users/loghinalexandru'), 1000);
-}
-
-window.onload = setOdometerValue();
+window.onload = loadData();
