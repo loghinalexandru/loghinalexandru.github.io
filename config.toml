@@ -1,0 +1,14 @@
+baseURL = 'http://loghinalexandru.github.io/'
+languageCode = 'en-us'
+title = 'Loghin Alexandru'
+theme = "hugo-developer-portfolio"
+
+[params.plugins]
+  # CSS Plugins
+  [[params.plugins.css]]
+  URL = "https://cdn.jsdelivr.net/npm/uikit@3.2.6/dist/css/uikit.min.css"
+  # JS Plugins
+  [[params.plugins.js]]
+  URL = "https://cdn.jsdelivr.net/npm/uikit@3.2.6/dist/js/uikit.min.js"
+  [[params.plugins.js]]
+  URL = "https://cdn.jsdelivr.net/npm/uikit@3.2.6/dist/js/uikit-icons.min.js"
