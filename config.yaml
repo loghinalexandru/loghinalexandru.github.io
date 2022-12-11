@@ -1,0 +1,41 @@
+baseUrl: http://localhost
+languageCode: en-us
+theme: hello-friend
+paginate: 5
+
+params:
+  contentTypeName: posts
+  defaultTheme: dark
+  showMenuItems: 3
+  showReadingTime: true
+
+languages:
+  en:
+    title: Homepage
+    subtitle: Loghin Alexandru
+    keywords: '.net, developer'
+    copyright: Copyright © 2022 Loghin Alexandru | Powered By Hugo
+    menuMore: Show more
+    writtenBy: 'Author: '
+    readMore: Read more
+    minuteReadingTime: "min read"
+    readOtherPosts: Read other posts
+    newerPosts: Newer posts
+    olderPosts: Older posts
+    dateFormatSingle: 2006-01-02
+    dateFormatList: 2006-01-02
+    params:
+      logo:
+        logoText: cat ~/.home
+        logoHomeLink: /
+    menu:
+      main:
+      - identifier: about
+        name: About
+        url: /about
+      - identifier: projects
+        name: Projects
+        url: /projects
+      - identifier: posts
+        name: Ledger
+        url: /posts
