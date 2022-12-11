@@ -4,7 +4,7 @@ title: About
 
 ## Let's get the profile picture thing out of the way.
 
-{{< figure src="/portrait.jpg" title="Me" caption="This is the best picture I have, that's why I use it everywhere.">}}
+{{< figure src="/portrait.jpg" title="Me" caption="This is the best picture I have, that's why I use it everywhere." style="border-radius: 5px;" >}}
 
 ---
 
@@ -33,6 +33,15 @@ I also have developed an obsession with custom keyboards and everything that is 
 ## Contact
 
 If you want to contact me you can do so via these methods:
-- [**Email**](mailto:loghinalexandru61@gmail.com)
-- [**Github**](https://github.com/loghinalexandru)
-- [**LinkedIn**](https://www.linkedin.com/in/alexandru-loghin-a217b517a/)
+
+```bash
+$ sendmail loghinalexandru61@gmail.com < ./email.txt
+```
+
+```bash
+$ git request-pull https://github.com/loghinalexandru
+```
+
+```bash
+$ wget https://www.linkedin.com/in/loghinalexandru
+```
