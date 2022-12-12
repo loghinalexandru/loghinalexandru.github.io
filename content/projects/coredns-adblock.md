@@ -7,6 +7,7 @@ tags:
   - opensource
   - coredns
   - adblock
+  - k8s
 draft: false
 ---
 
@@ -79,6 +80,6 @@ If you want to override this make a custom-values.yaml add pass it via **-f** to
 # How to install
 
 ```bash
-git clone https://github.com/loghinalexandru/CoreDNS-AdBlock
-helm upgrade --install coredns-adblock ./CoreDNS-AdBlock
+git clone https://github.com/loghinalexandru/coredns-adblock
+helm upgrade --install coredns-adblock ./coredns-adblock
 ```
