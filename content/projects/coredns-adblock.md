@@ -79,6 +79,6 @@ If you want to override this make a custom-values.yaml add pass it via **-f** to
 # How to install
 
 ```bash
-git pull https://github.com/loghinalexandru/CoreDNS-AdBlock
+git clone https://github.com/loghinalexandru/CoreDNS-AdBlock
 helm upgrade --install coredns-adblock ./CoreDNS-AdBlock
 ```
