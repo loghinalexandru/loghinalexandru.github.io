@@ -1,5 +1,7 @@
 ---
-title: About
+title: "About"
+date: 2022-12-12T10:34:10+02:00
+draft: false
 ---
 
 ## Let's get the profile picture thing out of the way.
@@ -25,6 +27,7 @@ What I know *(hoppefuly)* in depth :
   - Linux
   - Virtualization
   - Networking
+  - SQL/NoSQL
 
 My primary software development language is **C#**. I also vaguely know a lot of shell languages like **bash** and random bits and pieces of **Java,C,C++,Perl,Go**. 
 

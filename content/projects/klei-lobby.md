@@ -1,9 +1,10 @@
 ---
-title: Klei-Lobby
-date: 2022-11-12
+title: "Klei Lobby"
+date: 2022-12-12T10:35:14+02:00
+author: Loghin Alexandru
 tags:
   - opensource
-  - klei
+draft: false
 ---
 
-# Placeholder
+# This is also a test
