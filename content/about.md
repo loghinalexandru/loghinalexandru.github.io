@@ -12,7 +12,7 @@ draft: false
 
 ## Now for the good stuff.
 
-I have graduated Computer Science at "Alexandru Ioan Cuza University of Iași", Romania. I currently have a bachelor's degree that I got in **2019** and a master's degree in "Computational Optimization" in **2022**.
+I have graduated Computer Science at "Alexandru Ioan Cuza" University of Iași, Romania. I currently have a bachelor's degree that I got in **2019** and a master's degree in "Computational Optimization" in **2022**.
 
 I also have been working in the *Tech Industry* since I graduated in **2019** primarily as a *.Net Developer*. During the years I had the pleasure/displeasure to work with a number of
 technologies revolving around the server-side of web applications.
