@@ -38,7 +38,7 @@ I also have developed an obsession with custom keyboards and everything that is 
 If you want to contact me you can do so via these methods:
 
 ```bash
-$ sendmail loghinalexandru61@gmail.com < ./email.txt
+$ sendmail alex.loghin@outlook.com < ./email.txt
 ```
 
 ```bash
