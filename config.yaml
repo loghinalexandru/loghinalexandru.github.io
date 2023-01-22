@@ -8,6 +8,9 @@ params:
   defaultTheme: dark
   showMenuItems: 3
   rssFullText: true
+  mainSections:
+    - projects
+    - posts
 
 languages:
   en:
