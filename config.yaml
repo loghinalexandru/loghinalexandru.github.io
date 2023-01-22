@@ -8,7 +8,6 @@ params:
   defaultTheme: dark
   showMenuItems: 3
   rssFullText: true
-  rssFeedName: Alex's Corner
   mainSections:
     - projects
     - posts
