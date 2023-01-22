@@ -8,9 +8,23 @@ params:
   defaultTheme: dark
   showMenuItems: 3
   rssFullText: true
+  rssFeedName: Alex's Corner
   mainSections:
     - projects
     - posts
+
+outputs:
+  home:
+    - HTML
+    - RSS
+  page:
+    - HTML
+  section:
+    - HTML
+  taxonomy:
+    - HTML
+  term:
+    - HTML
 
 languages:
   en:
@@ -19,7 +33,7 @@ languages:
       name: Loghin Alexandru
       email: alex.loghin@outlook.com
     subtitle: Loghin Alexandru
-    keywords: ''
+    keywords: tech,opensource,blog
     copyright: Copyright © 2022 Loghin Alexandru | Powered By Hugo
     menuMore: Show more
     writtenBy: Crafted by
@@ -36,12 +50,12 @@ languages:
         logoHomeLink: /
     menu:
       main:
-      - identifier: about
-        name: About
-        url: /about
-      - identifier: projects
-        name: Projects
-        url: /projects
-      - identifier: posts
-        name: Ledger
-        url: /posts
+        - identifier: about
+          name: About
+          url: /about
+        - identifier: projects
+          name: Projects
+          url: /projects
+        - identifier: posts
+          name: Ledger
+          url: /posts
