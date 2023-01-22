@@ -28,11 +28,10 @@ outputs:
 
 languages:
   en:
-    title: Home
+    title: Alex's Corner
     author:
       name: Loghin Alexandru
       email: alex.loghin@outlook.com
-    subtitle: Loghin Alexandru
     keywords: tech,opensource,blog
     copyright: Copyright © 2022 Loghin Alexandru | Powered By Hugo
     menuMore: Show more
