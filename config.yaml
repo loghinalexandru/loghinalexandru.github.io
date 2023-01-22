@@ -7,10 +7,14 @@ params:
   contentTypeName: posts
   defaultTheme: dark
   showMenuItems: 3
+  rssFullText: true
 
 languages:
   en:
     title: Home
+    author:
+      name: Loghin Alexandru
+      email: alex.loghin@outlook.com
     subtitle: Loghin Alexandru
     keywords: ''
     copyright: Copyright © 2022 Loghin Alexandru | Powered By Hugo
