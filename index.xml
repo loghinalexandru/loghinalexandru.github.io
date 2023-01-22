@@ -68,44 +68,4 @@ How to install
 &lt;/h1>
 &lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>git clone https://github.com/loghinalexandru/coredns-adblock
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>helm upgrade --install coredns-adblock ./coredns-adblock
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div></description></item><item><title>About</title><link>https://loghinalexandru.com/about/</link><pubDate>Mon, 12 Dec 2022 10:34:10 +0200</pubDate><author>alex.loghin@outlook.com (Loghin Alexandru)</author><guid>https://loghinalexandru.com/about/</guid><description>
-&lt;h2 id="lets-get-the-profile-picture-thing-out-of-the-way">
-Let&amp;rsquo;s get the profile picture thing out of the way.
-&lt;a href="#lets-get-the-profile-picture-thing-out-of-the-way" class="h-anchor" aria-hidden="true">#&lt;/a>
-&lt;/h2>
-&lt;figure class="left" >
-&lt;img src="https://loghinalexandru.com/portrait.jpg" style="border-radius: 5px;" />
-&lt;figcaption class="center" >This is the best picture I have, that&amp;rsquo;s why I use it everywhere.&lt;/figcaption>
-&lt;/figure>
-&lt;hr>
-&lt;h2 id="now-for-the-good-stuff">
-Now for the good stuff.
-&lt;a href="#now-for-the-good-stuff" class="h-anchor" aria-hidden="true">#&lt;/a>
-&lt;/h2>
-&lt;p>I have graduated Computer Science at &amp;ldquo;Alexandru Ioan Cuza&amp;rdquo; University of Iași, Romania. I currently have a bachelor&amp;rsquo;s degree that I got in &lt;strong>2019&lt;/strong> and a master&amp;rsquo;s degree in &amp;ldquo;Computational Optimization&amp;rdquo; in &lt;strong>2022&lt;/strong>.&lt;/p>
-&lt;p>I also have been working in the &lt;em>Tech Industry&lt;/em> since I graduated in &lt;strong>2019&lt;/strong> primarily as a &lt;em>.Net Developer&lt;/em>. During the years I had the pleasure/displeasure to work with a number of
-technologies revolving around the server-side of web applications.&lt;/p>
-&lt;p>What I know &lt;em>(hoppefuly)&lt;/em> in depth :&lt;/p>
-&lt;ul>
-&lt;li>K8s&lt;/li>
-&lt;li>.NET Framework/Core&lt;/li>
-&lt;li>DevOps&lt;/li>
-&lt;li>Source Control&lt;/li>
-&lt;li>Scalable/High Availability Architecture&lt;/li>
-&lt;li>Domain Driven Design&lt;/li>
-&lt;li>Linux&lt;/li>
-&lt;li>Virtualization&lt;/li>
-&lt;li>Networking&lt;/li>
-&lt;li>SQL/NoSQL&lt;/li>
-&lt;/ul>
-&lt;p>My primary software development language is &lt;strong>C#&lt;/strong>. I also vaguely know a lot of shell languages like &lt;strong>bash&lt;/strong> and random bits and pieces of &lt;strong>Java,C,C++,Perl,Go&lt;/strong>.&lt;/p>
-&lt;p>I also have developed an obsession with custom keyboards and everything that is self-hosted. This is also the main topic and reason of my &lt;a href="../projects/">&lt;strong>open-source projects&lt;/strong>&lt;/a>.&lt;/p>
-&lt;h2 id="contact">
-Contact
-&lt;a href="#contact" class="h-anchor" aria-hidden="true">#&lt;/a>
-&lt;/h2>
-&lt;p>If you want to contact me you can do so via these methods:&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>$ sendmail alex.loghin@outlook.com &amp;lt; ./email.txt
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>$ git request-pull https://github.com/loghinalexandru
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>$ wget https://www.linkedin.com/in/loghinalexandru
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div></description></item></channel></rss>
