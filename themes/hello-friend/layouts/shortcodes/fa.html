@@ -1,0 +1,10 @@
+{{ $faStylePrefix := "fas" }}
+{{ if in (slice "fas" "far" "fal" "fad" "fab") (.Get 0) }}
+  {{ $faStylePrefix = (.Get 0) }}
+{{ end }}
+
+<i class="{{ $faStylePrefix }} {{ range $iconName := .Params }} fa-{{ $iconName }} {{ end }}">
+  {{ if not (.Page.Scratch.Get "fontawesomeLoaded") }}
+    {{ .Page.Scratch.Set "fontawesomeLoaded" true }}
+  {{ end }}
+</i>

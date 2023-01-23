@@ -48,4 +48,20 @@
       margin-top: 10px;
     }
   }
+
+  .social{
+    display: flex;
+    column-gap: 20px;
+    flex-direction: row;
+    align-items: center;
+    font-size: 1rem;
+
+    &--links {
+      margin-top: 20px;
+      margin-right: auto;
+      margin-left: auto;
+      margin-bottom: auto;
+      text-align: center;
+    }
+  }
 }
