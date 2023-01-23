@@ -6,4 +6,4 @@ framed: true
 
 This is my personal page/blog where you can check out my random posts.
 
-You can also use my {{< fa rss lg >}} [**feed**](./index.xml) to get updates.
+You can also use my {{< fa rss lg >}}&nbsp;[**feed**](./index.xml) to get updates.
