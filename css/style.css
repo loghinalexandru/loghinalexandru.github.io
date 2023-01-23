@@ -742,6 +742,19 @@ h4:hover a {
       .footer .copyright {
         flex-direction: column;
         margin-top: 10px; } }
+  .footer .social {
+    display: flex;
+    column-gap: 20px;
+    flex-direction: row;
+    align-items: center;
+    font-size: 1rem; }
+    .footer .social--links {
+      margin-top: 20px;
+      margin-right: auto;
+      margin-left: auto;
+      margin-bottom: auto;
+      text-align: center; }
+
 .terms {
   width: 100%;
   max-width: 800px;
