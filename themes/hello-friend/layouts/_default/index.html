@@ -64,6 +64,13 @@
       {{ end }}
     </article>
     {{ end }}
-    {{ partial "pagination.html" . }}
+    <div class="pagination__buttons">
+      <span class="button next">
+        <a href="/{{$.Site.Params.contentTypeName}}">
+          <span class="button__text">{{ $.Site.Params.IndexOlderPosts | default "Read more posts" }}</span>
+          <span class="button__icon">→</span>
+        </a>
+      </span>
+    </div>
   </div>
 {{ end }}

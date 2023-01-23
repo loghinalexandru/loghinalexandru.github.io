@@ -1,16 +1,15 @@
 baseUrl: https://loghinalexandru.com
 languageCode: en-us
 theme: hello-friend
-paginate: 5
+paginate: 3
 
 params:
-  contentTypeName: posts
+  contentTypeName: ledger
   defaultTheme: dark
-  showMenuItems: 3
+  showMenuItems: 2
   rssFullText: true
   mainSections:
-    - projects
-    - posts
+    - ledger
 
 outputs:
   home:
@@ -37,6 +36,7 @@ languages:
     writtenBy: Crafted by
     readMore: Read more
     minuteReadingTime: min read
+    indexOlderPosts: Checkout all posts
     readOtherPosts: Read other posts
     newerPosts: Newer posts
     olderPosts: Older posts
@@ -51,9 +51,6 @@ languages:
         - identifier: about
           name: About
           url: /about
-        - identifier: projects
-          name: Projects
-          url: /projects
-        - identifier: posts
+        - identifier: ledger
           name: Ledger
-          url: /posts
+          url: /ledger

@@ -6,7 +6,7 @@ draft: false
 
 ## Let's get the profile picture thing out of the way.
 
-{{< figure src="/portrait.jpg" title="Me" caption="This is the best picture I have, that's why I use it everywhere." style="border-radius: 5px;" >}}
+{{< figure src="/portrait.jpg" title="Me" caption="This is the best picture I have, n that's why I use it everywhere." style="border-radius: 5px;width: 80%;margin: auto;" >}}
 
 ---
 
