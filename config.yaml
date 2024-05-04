@@ -1,4 +1,4 @@
-baseUrl: https://loghinalexandru.com
+baseUrl: https://alex.loghin.dev
 languageCode: en-us
 theme: hello-friend
 paginate: 3
@@ -33,7 +33,7 @@ languages:
       github: https://github.com/loghinalexandru
       linkedin: https://www.linkedin.com/in/loghinalexandru
     keywords: tech,opensource,blog
-    copyright: Copyright © 2022 Loghin Alexandru | Powered By Hugo
+    copyright: Copyright © 2024 Loghin Alexandru | Powered By Hugo
     menuMore: Show more
     writtenBy: Crafted by
     readMore: Read more
