@@ -27,11 +27,6 @@ outputs:
 languages:
   en:
     title: Loghin Alexandru
-    author:
-      name: Loghin Alexandru
-      email: alex.loghin@outlook.com
-      github: https://github.com/loghinalexandru
-      linkedin: https://www.linkedin.com/in/loghinalexandru
     keywords: tech,opensource,blog
     copyright: Copyright © 2024 Loghin Alexandru | Powered By Hugo
     menuMore: Show more
@@ -48,6 +43,11 @@ languages:
       logo:
         logoText: cat ~/.home
         logoHomeLink: /
+      author:
+        name: Loghin Alexandru
+        email: alex.loghin@outlook.com
+        github: https://github.com/loghinalexandru
+        linkedin: https://www.linkedin.com/in/loghinalexandru
     menu:
       main:
         - identifier: about
