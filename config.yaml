@@ -31,6 +31,7 @@ languages:
     copyright: Copyright © 2024 Loghin Alexandru | Powered By Hugo
     menuMore: Show more
     writtenBy: Crafted by
+    hideReadMore: true
     readMore: Read more
     minuteReadingTime: min read
     indexOlderPosts: Checkout all posts

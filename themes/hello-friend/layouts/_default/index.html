@@ -59,7 +59,7 @@
           {{ end }}
         {{ end }}
       </div>
-      {{ if not .Params.hideReadMore }}
+      {{ if not $.Site.Params.HideReadMore }}
         <div><a class="read-more button" href="{{.RelPermalink}}">{{ $.Site.Params.ReadMore | default "Read more" }} →</a></div>
       {{ end }}
     </article>
@@ -67,7 +67,7 @@
     <div class="pagination__buttons">
       <span class="button next">
         <a href="/{{$.Site.Params.contentTypeName}}">
-          <span class="button__text">{{ $.Site.Params.IndexOlderPosts | default "Read more posts" }}</span>
+          <span class="button__text">{{ $.Site.Params.ReadMore | default "Read more posts" }}</span>
           <span class="button__icon">→</span>
         </a>
       </span>
