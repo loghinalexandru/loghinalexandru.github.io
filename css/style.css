@@ -610,13 +610,17 @@ h4:hover a {
         font-size: 2rem; } }
     .post-title a {
       text-decoration: none; }
+      .post-title a:hover {
+        text-decoration-line: underline; }
   .post-tags {
     display: block;
     margin-bottom: 20px;
     font-size: 1rem;
-    opacity: .5; }
+    opacity: 0.7; }
     .post-tags a {
       text-decoration: none; }
+      .post-tags a:hover {
+        font-weight: bold; }
   .post-content {
     margin-top: 30px; }
   .post-cover {
