@@ -1,7 +1,10 @@
 ---
 framed: true
 ---
-# Hi. I'm Alex.
+{{< image src="/img/avatar.png" style="width: 20%;float: right;border-radius: 50%;margin-top:10px" >}}
+
+# Hi. I'm Alex. 
+
 ## A *software engineer* & *keyboard snob*. 
 
 This is my personal page/blog where you can check out my random posts.
