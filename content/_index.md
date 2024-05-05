@@ -1,7 +1,7 @@
 ---
 framed: true
 ---
-{{< image src="/img/avatar.png" style="width: 20%;float: right;border-radius: 50%;margin-top:10px" >}}
+{{< image src="/img/avatar.png" style="width: 20%;float: right;border-radius: 50%;margin-top:10px;" >}}
 
 # Hi. I'm Alex. 
 

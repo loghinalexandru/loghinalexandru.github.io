@@ -1,22 +1,14 @@
 <footer class="footer">
   <div class="footer__inner">
-    {{ if $.Site.Copyright }}
-      <div class="copyright copyright--user">{{ $.Site.Copyright | safeHTML }}</div>
-      {{ else }}
-      {{ partial "logo.html" . }}
-      <div class="copyright">
-        <span>© {{ now.Year }} Powered by <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a></span>
-        <span><a href="https://github.com/panr/hugo-theme-hello-friend" target="_blank">Theme</a> made by <a href="https://github.com/panr" target="_blank">panr</a></span>
-      </div>
-    {{ end }}
-  </div>
-  <div class="footer__inner">
     <div class="social social--links">
        <a target="_blank" href="mailto:{{ $.Site.Params.Author.Email | safeHTML }}"><i class="fa-solid fa-inbox fa-xl"></i></a>
        <a target="_blank" href="{{ $.Site.Params.Author.Github | safeHTML }}"><i class="fa-brands fa-github fa-xl"></i></a>
        <a target="_blank" href="{{ $.Site.Params.Author.Linkedin | safeHTML }}"><i class="fa-brands fa-linkedin fa-xl"></i></a>
       </span>
     </div>
+  </div>
+  <div class="footer__inner">
+    <div class="copyright copyright--user">© 2022-{{ now.Year }} {{ $.Site.Copyright | safeHTML }}</div>
   </div>
 </footer>
 

@@ -31,14 +31,14 @@ What I know *(hoppefuly)* in depth :
 
 My primary software development language is **C#**. I also vaguely know a lot of shell languages like **bash** and random bits and pieces of **Java,C,C++,Perl,Go**. 
 
-I also have developed an obsession with custom keyboards and everything that is self-hosted. This is also the main topic and reason of my [**open-source projects**](../projects/).
+I also have developed an obsession with custom keyboards and everything that is self-hosted. This is also the main topic and reason of my [**open-source projects**](../ledger/).
 
 ## Contact
 
 If you want to contact me you can do so via these methods:
 
 ```bash
-$ sendmail alex.loghin@outlook.com < ./email.txt
+$ sendmail alex@loghin.dev < ./email.txt
 ```
 
 ```bash

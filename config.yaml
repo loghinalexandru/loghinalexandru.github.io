@@ -28,7 +28,7 @@ languages:
   en:
     title: Loghin Alexandru
     keywords: tech,opensource,blog
-    copyright: Copyright © 2024 Loghin Alexandru | Powered By Hugo
+    copyright: Loghin Alexandru | Powered By Hugo
     menuMore: Show more
     writtenBy: Crafted by
     hideReadMore: true
@@ -46,7 +46,7 @@ languages:
         logoHomeLink: /
       author:
         name: Loghin Alexandru
-        email: alex.loghin@outlook.com
+        email: alex@loghin.dev
         github: https://github.com/loghinalexandru
         linkedin: https://www.linkedin.com/in/loghinalexandru
     menu:
